@@ -1,5 +1,5 @@
-﻿  class Program
-  {
+﻿class Program
+{
     static void Main(string[] args)
     {
         Console.Write("Enter the first number: ");
@@ -24,33 +24,31 @@
             Console.WriteLine("Wrong sign");
             return;
         }
-
+    
         switch (s[0])
         {
             case '&':
                 Console.WriteLine("Result of {0} & {1} = {2}", a, b, a & b);
+                Console.WriteLine("binary --> {0}", Convert.ToString(a & b, 2));
+                Console.WriteLine("decimal --> {0}", Convert.ToString(a & b, 10));
+                Console.WriteLine(" Hexadecimal --> {0}", Convert.ToString(a & b, 16));
                 break;
             case '|':
                 Console.WriteLine("Result of {0} | {1} = {2}", a, b, a | b);
+                Console.WriteLine("binary --> {0}", Convert.ToString(a | b, 2));
+                Console.WriteLine("decimal --> {0}", Convert.ToString(a | b, 10));
+                Console.WriteLine(" Hexadecimal --> {0}", Convert.ToString(a | b, 16));
                 break;
             case '^':
                 Console.WriteLine("Result of {0} ^ {1} = {2}", a, b, a ^ b);
+                Console.WriteLine("binary --> {0}", Convert.ToString(a ^ b, 2));
+                Console.WriteLine("decimal --> {0}", Convert.ToString(a ^ b, 10));
+                Console.WriteLine(" Hexadecimal --> {0}", Convert.ToString(a ^ b, 16));
                 break;
             default:
                 Console.WriteLine("Wrong sign");
                 break;
         }
-
-        int[] bases = { 2, 10, 16 };
-        int[] numbers = { a, b, a ^ b, a & b, a | b, };
-
-        foreach (int baseValue in bases)
-        {
-            Console.WriteLine("Base {0} Conversion:", baseValue);
-            foreach (short number in numbers)
-            {
-                Console.WriteLine("{0}  -->  {1}",  number, Convert.ToString(number,  baseValue));
-            }         
-        }       
     }
-  }
+}
+ 
