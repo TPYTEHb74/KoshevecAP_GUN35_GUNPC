@@ -2,13 +2,8 @@
 using System.Runtime.ExceptionServices;
 
 Console.WriteLine("Task 1");
-int Fib(int n)
-{
-    if ((n == 0) || (n == 1))
-        return n;
-    return Fib(n - 1) + Fib(n - 2);
-}
-Console.WriteLine($"{Fib(0)}, {Fib(1)}, {Fib(2)}, {Fib(3)}, {Fib(4)}, {Fib(5)}, {Fib(6)}, {Fib(7)}, {Fib(8)}");
+int[] Fib = new int[] { 0, 1, 2, 3, 5, 8, 13, 21 };
+Fib.ToList().ForEach(i => Console.WriteLine(i.ToString()));
 
 
 //Задание 2
@@ -20,46 +15,43 @@ Console.WriteLine(string.Join(", ", mounths));
 
 //Задание 3
 Console.WriteLine("Task 3");
-int[][] ints = new int[3][];
-ints[0] = new int[3];
-ints[1] = new int[3];
-ints[2] = new int[3];
+int[,] ints = { {2, 3, 4 }, {4, 9, 16 }, {8, 27, 64 }};
 
-foreach (var f in ints)
-    Console.WriteLine("{0} в квадрате равно {1}", f,  f * f);
+int rows = ints.GetUpperBound(0) + 1;
+int columns = ints.Length / rows;
 
-
+for (int i = 0; i < rows; i++)
+{
+    for (int j = 0; j < columns; j++)
+    {
+        Console.Write($"{ints[i, j]} \t");
+    }
+    Console.WriteLine();
+}
 
 
 //Задание 4
 Console.WriteLine("Task 4");
-int u = 0;
- int[][] myArr = new int[3][];
- myArr[0] = new int[6];
- myArr[1] = new int[2];
- myArr[2] = new int[4];
+const double PI = Math.PI;
+const double E = Math.E;
 
-for (u = 0; u < 6; u++)
-{
-    myArr[0][u] = u;
-    Console.Write("{0}\t", myArr[0][u]);
-}
-Console.WriteLine();
+double[][] myArr = new double[3][]
+ {
+    new double[] { 1, 2, 3, 4, 5 },
+    new double[] {PI, E },
+    new double[] { Math.Log10(1), Math.Log10(10), Math.Log10(100), Math.Log10(1000) }
+ };
 
-for (u = 0; u < 2; u++)
+for (int i = 0; i < myArr.Length; i++)
 {
-    myArr[1][u] = u;
-    Console.Write("{0}\t", myArr[1][u]);
-}
-Console.WriteLine();
+    for (int j = 0; j < myArr[i].Length; j++)
+    {
 
-for (u = 0; u < 4; u++)
-{
-    myArr[2][u] = u;
-    Console.Write("{0}\t", myArr[2][u]);
+        Console.Write($"{myArr[i][j]} \t");
+    }
+    Console.WriteLine();
 }
-Console.WriteLine();
- 
+
 
 //Задание 5
 Console.WriteLine("Task 5");

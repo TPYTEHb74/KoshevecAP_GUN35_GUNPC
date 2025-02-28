@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj": {}
+    "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj": {
+    "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj",
         "projectName": "Array",
-        "projectPath": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj",
+        "projectPath": "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\Array\\Array.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN35_GUNPC\\Array\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\Array\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
