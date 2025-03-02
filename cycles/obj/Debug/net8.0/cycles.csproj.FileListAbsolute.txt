@@ -1,0 +1,15 @@
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\bin\Debug\net8.0\cycles.exe
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\bin\Debug\net8.0\cycles.deps.json
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\bin\Debug\net8.0\cycles.runtimeconfig.json
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\bin\Debug\net8.0\cycles.dll
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\bin\Debug\net8.0\cycles.pdb
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.AssemblyInfoInputs.cache
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.AssemblyInfo.cs
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.csproj.CoreCompileInputs.cache
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.sourcelink.json
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.dll
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\refint\cycles.dll
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.pdb
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\cycles.genruntimeconfig.cache
+C:\Users\sasha\OneDrive\Документы\KoshevecAP_GUN35_GUNPC\cycles\obj\Debug\net8.0\ref\cycles.dll
