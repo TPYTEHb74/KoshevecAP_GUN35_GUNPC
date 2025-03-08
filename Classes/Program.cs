@@ -10,7 +10,7 @@
             int.TryParse(Console.ReadLine(), out int health); 
 
 
-            var unit = new Unit(name, health);
+            
         }
     }
 }
