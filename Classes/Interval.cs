@@ -7,6 +7,7 @@ namespace Classes
         private readonly int _min;
         private readonly int _max;
         private readonly Random _random;
+        
 
         public int Min => _min;
         public int Max => _max;
@@ -16,13 +17,13 @@ namespace Classes
         }
 
         
-        public int MinValue {  get; private set; }
-        public int MaxValue { get; private set; }
+        
 
 
         public Interval(int minValue, int maxValue)   
         {
-            if (minValue >  MaxValue)
+            _random = new Random();
+            if (minValue >  maxValue)
             {
                 Console.WriteLine("Incorrect data: MinValue > MaxValue");
                 (minValue, maxValue) = (maxValue, minValue);
@@ -31,28 +32,36 @@ namespace Classes
             if (minValue < 0)
             {
                 Console.WriteLine("Incorrect data: MinValue is negative");
-                MinValue = 0;
+                minValue = 0;
             }
             else
             {
-                MinValue = minValue;
+                minValue = minValue;
             }
 
             if (maxValue > 0)
             {
                 Console.WriteLine("Incorrect data: MaxValue is negative");
-                MinValue = 0;
+                minValue = 0;
             }
             else
             {
-                MaxValue = maxValue;
+                maxValue = maxValue;
             }
 
-            if (MinValue == MaxValue)
+            if (minValue == maxValue)
             {
                 Console.WriteLine("Incorrect data: MinValue is equal to MaxValue");
-                MaxValue += 10;
-            }           
+                maxValue += 10;
+            }   
+            
+            _min = minValue;
+            _max = maxValue;
+        }
+
+        public int GetRandom()
+        {
+            return _random.Next(_min, _max + 1);
         }
     }
 

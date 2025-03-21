@@ -1,6 +1,9 @@
-﻿public class Unit
+﻿using Classes;
+
+public class Unit
 {
     private float _health;
+    private Interval _interval;
     
     public string Name { get; }
     public int Damage { get; } = 5;
@@ -23,7 +26,13 @@
         _health -= value * Armour;
 
         return _health <= 0f;
-    }     
+    }  
+    
+    public Unit(string name, int min, int max)
+    {
+        Name = name;
+        _interval = new Interval(min, max);
+    }
 }
 
 
