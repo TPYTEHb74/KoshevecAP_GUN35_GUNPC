@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN33_GUNPC\\MyFirstApp\\MyFirstApp.csproj",
-      "projectName": "MyFirstApp",
-      "projectPath": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN33_GUNPC\\MyFirstApp\\MyFirstApp.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\MyFirstApp\\TheFinalTask.csproj",
+      "projectName": "TheFinalTask",
+      "projectPath": "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\MyFirstApp\\TheFinalTask.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\KoshevecAP_GUN33_GUNPC\\MyFirstApp\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\OneDrive\\Документы\\KoshevecAP_GUN35_GUNPC\\MyFirstApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
