@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using static DefaultNamespace.PositionSaver;
 
 namespace DefaultNamespace
 {
@@ -20,8 +21,10 @@ namespace DefaultNamespace
 			     " и выберите команду  'Create File' ")]
         private TextAsset _json;
 
-        [SerializeField, HideInInspector]
-        public List<Data> Records { get; private set; }
+
+
+		[field: SerializeField, HideInInspector]
+		public List<Data> Records { get; set; } = default!;
 
 		private void Awake()
 		{
